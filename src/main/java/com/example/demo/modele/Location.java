@@ -13,7 +13,11 @@ public class Location {
     private Integer idLocation;
 
     @JoinColumn(name = "idClient",nullable = false)
+<<<<<<< HEAD
     private Clients client;
+=======
+    private Client client;
+>>>>>>> origin/master
 
     @JoinColumn(name="numeroChambre",nullable = false)
     private Chambre chambre;

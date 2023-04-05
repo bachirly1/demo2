@@ -19,7 +19,11 @@ public class Reservation {
 
     @ManyToOne
     @JoinColumn (name = "idClient",nullable = false)
+<<<<<<< HEAD
     private Clients client;
+=======
+    private Client client;
+>>>>>>> origin/master
 
     public Integer getIdReservation() {
         return idReservation;
