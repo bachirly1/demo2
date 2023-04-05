@@ -1,6 +1,12 @@
 package com.example.demo.modele;
 import lombok.Data;
+<<<<<<< HEAD
 import jakarta.persistence.*;
+=======
+import lombok.NoArgsConstructor;
+import jakarta.persistence.*;
+import org.springframework.data.relational.core.sql.In;
+>>>>>>> origin/master
 
 @Entity
 @Table(name="hotel")
@@ -30,7 +36,11 @@ public class Hotel {
     private Chambre chambre;
 
     @JoinColumn(name ="idClient",nullable = false)
+<<<<<<< HEAD
     private Clients client;
+=======
+    private Client client;
+>>>>>>> origin/master
 
 
     public Integer getIdHotel() {
